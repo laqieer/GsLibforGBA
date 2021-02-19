@@ -1,0 +1,4 @@
+include Makefile.bak
+GP	=	gendep
+gendepend:
+	$(GP) $(CFILES) > Makedepend

@@ -1,0 +1,23 @@
+//=====================================================
+Exception code: C0000005 ACCESS_VIOLATION
+Fault address:  77F53741 01:00002741 C:\WINDOWS\System32\ntdll.dll
+
+Registers:
+EAX:00120203
+EBX:003F0000
+ECX:00000203
+EDX:01526000
+ESI:01526000
+EDI:01526000
+CS:EIP:001B:77F53741
+SS:ESP:0023:0012F38C  EBP:0012F398
+DS:0023  ES:0023  FS:003B  GS:0000
+Flags:00010246
+
+Call stack:
+Address   Frame
+77F53741  0012F398  RtlQueryInformationActivationContext+223
+77F51FBF  0012F46C  RtlpUnWaitCriticalSection+2D5
+004B7DD2  0012F488  0001:000B1DD2 D:\emu\gba\VisualBoyAdvance.exe
+004200B4  00000111  0001:0001A0B4 D:\emu\gba\VisualBoyAdvance.exe
+
